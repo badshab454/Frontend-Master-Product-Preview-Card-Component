@@ -1,3 +1,35 @@
 body {
   background-color: #f2ebe3;
 }
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.image {
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.image img {
+  width: 60%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.col {
+  padding: 0;
+  margin: 0;
+}
+
+.product-info {
+  text-align: left;
+  background-color: #fff;
+  width: 60%;
+  height: 100%;
+  padding: 5%;
+}
